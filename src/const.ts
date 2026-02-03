@@ -17,7 +17,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 export const HOLIDAYS = [25]
 
 export const LOCATION = "더컨벤션 잠실 아모르홀"
-export const LOCATION_ADDRESS = "서울시 송파구 올림픽로 240"
+export const LOCATION_ADDRESS = "서울시 송파구 올림픽로 319"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
 // LOCATION 과 동일하게 설정해도 무방하나, 필요에 따라 좀 더 상세히 작성 가능.
@@ -39,52 +39,44 @@ export const KMAP_PLACE_ID = 8634826
 
 export const BRIDE_FULLNAME = "김우리"
 export const BRIDE_FIRSTNAME = "우리"
-export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "김OO"
-export const BRIDE_MOTHER = "OOO"
+export const BRIDE_TITLE = "차녀"
+export const BRIDE_FATHER = "김형선"
+export const BRIDE_MOTHER = "홍성자"
 export const BRIDE_INFO = [
-  {
-    relation: "신부",
-    name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
-    account: "우리은행 0000000000000",
-  },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
   },
 ]
 
 export const GROOM_FULLNAME = "강진모"
 export const GROOM_FIRSTNAME = "진모"
 export const GROOM_TITLE = "장남"
-export const GROOM_FATHER = "강OO"
-export const GROOM_MOTHER = "OOO"
+export const GROOM_FATHER = "강병구"
+export const GROOM_MOTHER = "엄난주"
 export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    account: "하나은행 646-911013-22607",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
     phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    account: "하나은행 461-810815-98207",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
     phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    account: "하나은행 589-810195-14307",
   },
 ]
