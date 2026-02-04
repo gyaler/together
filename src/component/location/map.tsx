@@ -148,22 +148,7 @@ const NaverMap = () => {
         </button>
         <button
           onClick={() => {
-            switch (checkDevice()) {
-              case "ios":
-              case "android": {
-                const params = new URLSearchParams({
-                  goalx: WEDDING_HALL_POSITION[0].toString(),
-                  goaly: WEDDING_HALL_POSITION[1].toString(),
-                  goalName: LOCATION,
-                })
-                window.open(`tmap://route?${params.toString()}`, "_self")
-                break
-              }
-              default: {
-                alert("모바일에서 확인하실 수 있습니다.")
-                break
-              }
-            }
+            window.open("https://tmap.life/cf177df7", "_blank")
           }}
         >
           <img src={tmapIcon} alt="t-map-icon" />
