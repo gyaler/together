@@ -66,6 +66,8 @@ export const Location = () => {
             <b>주차 안내</b>
             <br />
             교통회관 지상, 지하 주차장 이용
+            <br />
+            하객 2시간 무료주차
           </div>
         </div>
       </LazyDiv>

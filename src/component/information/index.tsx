@@ -14,9 +14,7 @@ export const Information1 = () => {
         <div className="content">
           장소: 12층 연회장
           <br />
-          예식 30분 전부터 2시간 식사 가능
-          <br />
-          하객 2시간 무료주차
+          식사 가능 시간: 13:30부터
         </div>
       </div>
     </>
