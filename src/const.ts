@@ -26,7 +26,7 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 
 // 네이버 지도 및 카카오 네비게이션에 사용할 좌표. [경도, 위도] 형식.
 // 더컨벤션 잠실 (서울시교통회관) - 잠실역 9번 출구 근처
-export const WEDDING_HALL_POSITION = [127.1003, 37.5117]
+export const WEDDING_HALL_POSITION = [127.1006, 37.5116]
 
 // 네이버 지도의 웨딩홀 장소 ID
 // 네이버 지도 웹페이지에서 웨딩홀 검색 후 URL에서 확인 가능.
