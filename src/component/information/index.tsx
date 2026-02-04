@@ -54,7 +54,7 @@ export const Information2 = () => {
                           <div className="name">
                             <span className="relation">{relation}</span> {name}
                           </div>
-                          <div>{account}</div>
+                          <div className="account">{account}</div>
                         </div>
                         <Button
                           className="copy-button"
@@ -107,7 +107,7 @@ export const Information2 = () => {
                           <div className="name">
                             <span className="relation">{relation}</span> {name}
                           </div>
-                          <div>{account}</div>
+                          <div className="account">{account}</div>
                         </div>
                         <Button
                           className="copy-button"
